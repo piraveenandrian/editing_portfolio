@@ -1,24 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Piraveen Andrian | Video Editing Portfolio</title>
 
 <style>
-body{
-font-family: Arial;
-background:#0f0f0f;
-color:white;
-text-align:center;
-padding:40px;
+body {
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
 }
 
-.video{
-margin:30px;
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
 }
 
-iframe{
-border-radius:10px;
+h2 {
+  font-size: 2em;
+  margin: 40px 0 20px 0;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.short-film-title {
+  font-size: 1.5em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #ffd700; /* golden color for short films */
+}
+
+/* Grid layout for videos */
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.video {
+  flex: 1 1 300px;
+  max-width: 560px;
+  text-align: center;
+}
+
+.video iframe,
+.video blockquote {
+  width: 100%;
+  height: 315px;
+  border-radius: 10px;
+}
+
+/* Contact section */
+.contact {
+  margin-top: 50px;
+  font-size: 1.2em;
 }
 </style>
 
@@ -30,49 +78,54 @@ border-radius:10px;
 <p>Video Editor | YouTube | Short Films | Social Media</p>
 
 <h2>About Me</h2>
-<p>I edit short films, music videos and social media posts. Mostly as a hobby, but sometimes professionally.</p>
+<p>I edit short films, music videos, and social media posts. Mostly as a hobby, but sometimes professionally.</p>
 
+<!-- Short Films Section -->
+<div class="short-film-title">Short Films</div>
+<div class="video-grid">
+  <div class="video">
+    <h3>Short Film: Oo7oIa-J390</h3>
+    <iframe src="https://www.youtube.com/embed/Oo7oIa-J390" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="video">
+    <h3>Short Film: Mk71N34rUKA</h3>
+    <iframe src="https://www.youtube.com/embed/Mk71N34rUKA" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
 <h2>Portfolio</h2>
+<div class="video-grid">
+  <div class="video">
+    <h3>My ShowReel</h3>
+    <iframe src="https://www.youtube.com/embed/fwQTQMCVHRY" frameborder="0" allowfullscreen></iframe>
+  </div>
 
-<div class="video">
-<h3>My ShowReel</h3>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/fwQTQMCVHRY"
-frameborder="0"
-allowfullscreen></iframe>
+  <!-- Instagram Reels -->
+  <div class="video">
+    <h3>Isolab Info</h3>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CartSWyJ8dx/?utm_source=ig_embed" data-instgrm-version="14"></blockquote>
+  </div>
+
+  <div class="video">
+    <h3>Isolab Promo</h3>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CbaErxnpqh-/?utm_source=ig_embed" data-instgrm-version="14"></blockquote>
+  </div>
+
+  <div class="video">
+    <h3>Isolab Animation</h3>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Cd0qds1pGRb/?utm_source=ig_embed" data-instgrm-version="14"></blockquote>
+  </div>
 </div>
 
-<h2>Social Media Posts</h2>
-
-<div class="video">
-<h3>Isolab Info</h3>
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CartSWyJ8dx/?utm_source=ig_embed" data-instgrm-version="14"></blockquote>
+<!-- Contact Section -->
+<div class="contact">
+  <h2>Contact</h2>
+  <p>Email: piraveenandrian@email.com</p>
 </div>
 
-<div class="video">
-<h3>Isolab Promo</h3>
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CbaErxnpqh-/?utm_source=ig_embed" data-instgrm-version="14"></blockquote>
-</div>
-
-<div class="video">
-<h3>Isolab Animation</h3>
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Cd0qds1pGRb/?utm_source=ig_embed" data-instgrm-version="14"></blockquote>
-</div>
-
-<!-- Instagram embed script -->
+<!-- Instagram embed script (only once) -->
 <script async src="https://www.instagram.com/embed.js"></script>
 
-<div class="video">
-<h3>Short Films</h3>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/Oo7oIa-J390"
-frameborder="0"
-allowfullscreen></iframe>
-</div>
-  
-<h2>Contact</h2>
-<p>Email: piraveenandrian@email.com</p>
-
 </body>
-
 </html>
